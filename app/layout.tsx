@@ -92,8 +92,8 @@ function Byline() {
           <div className="flex gap-x-6">
             <a
               className="group"
-              aria-label="TaxPal on Twitter"
-              href="https://twitter.com"
+              aria-label="GBN Creative on Twitter"
+              href="https://twitter.com/GBNCreative"
             >
               <svg
                 aria-hidden="true"
@@ -104,8 +104,8 @@ function Byline() {
             </a>
             <a
               className="group"
-              aria-label="TaxPal on GitHub"
-              href="https://github.com"
+              aria-label="GBN Creative on GitHub"
+              href="https://github.com/gccornejo441"
             >
               <svg
                 aria-hidden="true"
@@ -116,7 +116,7 @@ function Byline() {
             </a>
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright © 2023 TaxPal. All rights reserved.
+            Copyright © 2023 GBN Creative. All rights reserved.
           </p>
         </div>
       </div>
