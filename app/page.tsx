@@ -1,6 +1,9 @@
 import { demos } from '#/lib/demos';
 import { HeroScribble } from '#/ui/HeroScribble';
 import Link from 'next/link';
+import rightPhone from '#/public/Yoursite-right-hotel.png'
+import leftPhone from '#/public/Yoursite-left-psy.png'
+import Image from 'next/image';
 
 function Icon() {
   return (
@@ -83,7 +86,18 @@ function CardComponent() {
 export default function Page() {
   return (
     <div className="space-y-8">
-      <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-black sm:text-7xl">
+      <div className="flex justify-center">
+      <div className="content-leftImage"> 
+      <Image
+            src={leftPhone}
+            className="rounded-lg transform -translate-y-[100px] translate-x-[60px]"
+            alt="leftPhone"
+            height={450}
+            width={400}
+          />
+       </div>
+      <div>
+      <h1 className="mx-auto max-w-4xl font-display text-4xl sm:text-5xl font-medium tracking-tight text-black md:text-7xl">
         Effective{' '}
         <span className="relative whitespace-nowrap text-[#019D8A]">
           <HeroScribble />
@@ -111,6 +125,19 @@ export default function Page() {
           <span className="ml-3">Watch video</span>
         </a>
       </div>
+      </div>
+      <div className="flex">
+      <div className="content-rightImage"> 
+      <Image
+            src={rightPhone}
+            className="transform translate-y-[100px] -translate-x-[100px]"
+            alt="leftPhone"
+            height={400}
+            width={400}
+          />      </div>
+      </div>
+      </div>
+      
       <section
         id="secondary-features"
         aria-label="Features for simplifying everyday business tasks"
@@ -127,9 +154,9 @@ export default function Page() {
               needs to succeed!
             </p>
           </div>
-          <div className="lg:mt-20 block">
+          <div className="lg:mt-20 block my-20">
             <div
-              className="grid lg:grid-cols-3 gap-x-16 xl:gap-x-40"
+              className="grid lg:grid-cols-3 gap-x-16 gap-y-16 xl:gap-x-40 w-full md:w-1/2 lg:w-full mx-auto "
               role="tablist"
               aria-orientation="horizontal"
             >
