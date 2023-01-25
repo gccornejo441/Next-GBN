@@ -6,12 +6,12 @@ export default function Page() {
   return (
     <div className="space-y-8">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-black sm:text-7xl">
-        Marketing{' '}
+        Effective{' '}
         <span className="relative whitespace-nowrap text-[#019D8A]">
           <HeroScribble />
-          <span className="relative">made simple</span>
+          <span className="relative">Marketing Strategy</span>
         </span>{' '}
-        for small businesses.
+        for Business Success
       </h1>
       <div className="mt-10 flex justify-center gap-x-6">
         <a
@@ -33,6 +33,23 @@ export default function Page() {
           <span className="ml-3">Watch video</span>
         </a>
       </div>
+      <section
+        id="secondary-features"
+        aria-label="Features for simplifying everyday business tasks"
+        className="pt-20 pb-14 sm:pb-20 sm:pt-32 lg:pb-32"
+      >
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-2xl md:text-center">
+            <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
+              Simplify everyday business tasks.
+            </h2>
+            <p className="mt-4 text-lg tracking-tight text-slate-700">
+              Because you’d probably be a little confused if we suggested you
+              complicate your everyday business tasks instead.
+            </p>
+          </div>
+        </div>
+      </section>
       {/* <div className="space-y-10 text-white">
         {demos.map((section) => {
           return (
