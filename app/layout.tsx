@@ -15,14 +15,14 @@ export default function RootLayout({
         <GlobalNav />
 
         <div>
-          <div className="mx-auto max-w-4xl space-y-8 px-2 pt-20 lg:py-8 lg:px-8">
+          <div className="mx-auto  space-y-8 px-2 pt-20 lg:py-8 lg:px-8">
             {/* <div className="rounded-lg bg-vc-border-gradient p-px shadow-lg shadow-black/20">
               <div className="rounded-lg bg-black">
                 <AddressBar />
               </div>
             </div> */}
 
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
+            <div className="mx-auto  px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
               {children}
             </div>
 
